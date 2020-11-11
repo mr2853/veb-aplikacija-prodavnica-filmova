@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forma za prijavu</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css" defer>
+        <!--<script type="text/javascript" src="clear_lS_setup_users.js" defer></script>-->
+        <!--<script type="text/javascript" src="filmovi.js" defer></script>-->
+        <!--<script type="text/javascript" src="korisnici.js"></script>-->
+        <script type="text/javascript" src="provera_korisnika.js" defer></script>
+    </head>
+    <body>
+        <div class="poravnanje">
+            <fieldset>
+                <div class="poravnanjeInputa">
+                    <label>Korisnicko ime:</label>
+                    <input type="text" class="input_forma_za_prijavu" placeholder="Korisnicko ime" required value=""><br><span></span>
+                </div><br>
+                <div class="poravnanjeInputa">
+                    <label>Lozinka:</label>
+                    <input type="password" class="input_forma_za_prijavu" placeholder="Lozinka" required value=""><br><span></span>
+                </div><br>
+                <div class="poravnanjeButtona">
+                    <label>Prijava:</label>
+                    <button type="button" id="dugme_za_prijavu" class="button_forma_za_prijavu" onclick="proveri_korisnike()">Prijava</button>
+                </div><br>
+                <div class="poravnanjeButtona">
+                    <label>Registracija:</label>
+                    <a href="Za_registraciju_novog_kupca.html"><button type="button" class="button_forma_za_prijavu" id="dugme_za_registraciju1">Registracija</button></a>
+                </div><br>       
+            </fieldset>
+        </div>
+    </body>
+</html>

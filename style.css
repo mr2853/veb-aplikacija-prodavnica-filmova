@@ -1,0 +1,192 @@
+input{
+    margin-bottom: 20px;
+    margin-top: 20px;
+};
+
+img{
+    width: 200px;
+    height: 200px;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+
+body{
+    background-color: rgb(5, 5, 77);
+}
+.dugmad_slike{
+    background-color: rgb(15, 15, 145);
+    padding-top: 5px;
+    padding-right: 3px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+}
+.dugmad_slike:hover{
+  background-color: rgb(57, 57, 255);;
+}
+/* za nav na pocetnoj strani___________________*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(15, 15, 145);
+    border: 2px solid rgb(240, 120, 51);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(60, 60, 151);
+  }
+/*___________________________________________*/
+
+h1{
+    color: darkred;
+}
+button{
+  margin: 5px;
+}
+fieldset{ 
+  background-color: rgb(60, 60, 151);
+  width: 400px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  text-align: center;
+  align-content: center;
+}
+.button_forma_za_prijavu{
+  margin-right: 20px;
+  margin-top: 5px;
+}
+.input_forma_za_prijavu{
+  margin-right: 20px;
+  margin-top: 5px;
+}
+.poravnanje{
+  text-align: center;
+  align-content: center;
+}
+.poravnanjeInputa{
+  float: right;
+  clear: both;
+  margin: auto;
+  margin-right: 80px;
+  margin-top: 20px;
+}
+.poravnanjeButtona{
+  float: right;
+  clear: both;
+  margin: auto;
+  margin-right: 130px;
+  margin-top: 20px;
+}
+.poravnanjeButtona_prosle_kupovine{
+  float: right;
+  clear: both;
+  margin: auto;
+  margin-right: 240px;
+  margin-top: 20px;
+}
+.brp{
+  float: right;
+  clear: both;
+  margin: auto;
+  margin-right: 50px;
+  margin-top: 20px;
+}
+.prvi_div{
+  float: left;
+  margin-left: 30px;
+}
+input,select{
+  background-color: rgb(172, 221, 124);
+}
+label{
+  color: rgb(138, 197, 248);
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+button{
+  background-color: rgb(240, 120, 51);
+  color: black;
+  font-weight: bold;
+  border: 2px solid rgb(240, 120, 51);
+}
+button:hover{
+  background-color: rgb(255, 179, 134);
+}
+span{
+  color: #fa163f;
+  background-color: #e4f9ff;
+}
+a{
+  color: black;
+  font-weight: bold;
+}
+.span_detalji_filma{
+  background-color: rgba(157, 157, 255, 0.603);
+  color: aqua;
+  /*border: 1px solid rgb(240, 120, 51);*/
+  margin-right: 50px;
+}
+.prosle_kupovine_fieldset{
+  height: auto;
+}
+.prosle_kupovine_div{
+  color: red;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  width: 600px;
+  height: auto;
+  background-color: rgb(60, 60, 151);
+  border: 5px solid black;
+  text-align: center;
+
+}
+.h1_p_kup{
+  color: red;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.fieldset_p_k{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+  text-align: center;
+  align-content: center;
+}
+.input_search{
+  border: 2px solid rgb(240, 120, 51);
+}
+.korisnicko_ime_izmena_profila{
+  background-color: rgb(89, 89, 155);
+  color: white;
+}
+.p_ukupna_cena{
+  background-color: rgba(105, 105, 170, 0.801);
+  color: rgb(51, 250, 250);
+  font-weight: 300;
+  font-size: 120%;
+}
+h1,h3,h2{
+  color: rgb(135,234,134);
+}
+.niste_ulogovani{
+  color: rgb(0, 255, 234);
+}

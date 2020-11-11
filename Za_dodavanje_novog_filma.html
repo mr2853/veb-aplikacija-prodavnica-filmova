@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Stranica za dodavanje novog filma</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css" defer>
+        <script type="text/javascript" src="za_dodavanje_novog_filma.js" defer></script>
+    </head>
+    <body>
+        <div class="poravnanje">
+            <fieldset>
+                <div class="poravnanjeInputa" id="id">
+                    <label>Id:</label>
+                    <input type="number" name="Id" min="0" placeholder="Id" value="" disabled="true" required><br>
+                    <span></span>
+                </div>
+                <div class="poravnanjeInputa" id="Naziv">
+                    <label>Naziv:</label>
+                    <input type="text" name="Naziv" placeholder="Naziv" id="Naziv" value="" required><br>
+                    <span></span>
+                </div>
+                <div class="poravnanjeInputa" id="Zanr">
+                    <label>Zanr:</label>
+                    <input type="text" name="Zanr" placeholder="Zanr" value="" required><br>
+                    <span></span>
+                </div>
+                <div class="poravnanjeInputa" id="Godina_proizvodnje">
+                    <label>Godina proizvodnje:</label>
+                    <input type="number" name="Godina_proizvodnje" min="0" placeholder="Godina proizvodnje" value="" required><br>
+                    <span></span>
+                </div>
+                <div class="poravnanjeInputa" id="Cena">
+                    <label>Cena:</label>
+                    <input type="number" name="Cena" min="0" placeholder="Cena" value="" required><br>
+                    <span></span>
+                </div>
+                <div class="brp" id="Broj_raspolozivih_primeraka">
+                    <label>Broj raspolozivih primeraka:</label>
+                    <input type="number" name="Broj_raspolozivih_primeraka" min="0" placeholder="Broj raspolozivih primeraka" value="" required><br>
+                    <span></span>
+                </div>
+                <div class="brp" id="Broj_raspolozivih_primeraka">
+                    <label>Slika:</label>
+                    <input type="file" name="Slika_filma" placeholder="Slika filma" value="" required><br>
+                    <span></span>
+                </div>
+                <div class='poravnanjeButtona'>
+                    <select name="reziser" value="" >
+                        
+                    </select>
+                </div>
+                <div class="poravnanjeButtona">
+                    <button onclick="sacuvaj()">Potvrda</button><br>
+                    <span></span><br>
+                    <a href="Pocetna_strana.html"><button>Pocetna strana</button></a>
+                </div>
+            </fieldset>            
+        </div>
+    </body>
+</html>

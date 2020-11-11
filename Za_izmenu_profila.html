@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Stranica za izmenu filma</title>
+        <meta charset="UTF-8">
+        <script type="text/javascript" src="za_izmenu_profila.js" defer></script>
+        <link rel="stylesheet" href="style.css" defer>
+    </head>
+    <body>
+        <h1>Stranica za izmenu profila</h1>
+        <fieldset>
+            <div class='poravnanjeInputa' id='ime'>
+                <label>Ime:</label>
+                <input type='text' placeholder='Ime' required><br><span></span><br>
+            </div>
+            <div class='poravnanjeInputa' id='prezime'>
+                <label>Prezime:</label>
+                <input type='text' placeholder='Prezime' required><br><span></span><br>
+            </div>
+            <div class='poravnanjeInputa' id='korisnicko_ime'>
+                <label>Korisnicko ime:</label>
+                <input type='text' class="korisnicko_ime_izmena_profila" placeholder='Korisnicko ime' required><br><span></span>
+            </div>
+            <div class='poravnanjeInputa' id='korisnicko_ime'>
+                <label>Lozinka:</label>
+                <input type='password' placeholder='Lozinka' required><br><span></span><br>
+            </div>
+            <div class='poravnanjeButtona'>
+                <button type='button' id='sacuvaj_izmene' onclick="sacuvaj()">Sacuvaj</button><br><span></span><br>
+            </div>
+            <div class='poravnanjeButtona'>
+                <a href="Pocetna_strana.html"><button type='button' id='zatvori'>Pocetna strana</button></a>
+            </div>
+        </fieldset>
+    </body>
+</html> 

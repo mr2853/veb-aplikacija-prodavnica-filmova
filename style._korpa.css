@@ -1,0 +1,32 @@
+input,button,label,span{
+    margin: 5px;
+}
+label{
+    margin-right: 1px;
+}
+.fieldset_kopra{
+    width: 870px;
+    float: center;
+}
+p{
+    height: 160px;
+    margin-left: 20px;
+    text-align: left;
+}
+.p_slika{
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-right: 0px;
+}
+.detalji_p{
+    display: inline-block;
+    margin-left: 20px;
+    text-align: left;
+    margin-top: 5px;
+    height: 0px;
+    width: 550px;
+}
+.div_film{
+    height: 230px;
+}

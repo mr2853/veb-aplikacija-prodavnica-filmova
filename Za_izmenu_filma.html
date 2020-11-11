@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Za izmenu filma</title>
+        <meta charset="UTF-8">
+        <script type="text/javascript" src="za_izmenu_filma.js" defer></script>
+        <link rel="stylesheet" href="style.css" defer>
+    </head>
+    <body>
+        <h1>Stranica za izmenu filma</h1>
+        <fieldset>
+            <div class='poravnanjeInputa'>
+                <label>Slika filmova:</label>
+                <input type="file" id="izmena_slike_filmova" value=""><br><span></span><br>
+                <p id="mesto_za_sliku"></p><br>
+            </div>
+            <div class='poravnanjeInputa'>
+                <label>Id:</label>
+                <input type="text" id="id" value=""><br><span></span><br>
+            </div>
+            <div class='poravnanjeInputa'>
+                <label>Naziv filma:</label>
+                <input type="text" id="izmena_nazivi_filmova" value=""><br><span></span><br>
+            </div>
+            <div class='poravnanjeInputa'>
+                <label>Zanr:</label>
+                <input type="text" id="izmena_zanr" value=""><br><span></span><br>
+            </div>
+            <div class='poravnanjeInputa'>
+                <label>Godina proizvodnje:</label>
+                <input type="text" min="0"  id="izmena_godina_proizvodnje" value=""><br><span></span><br>
+            </div>
+            <div class='poravnanjeInputa'>
+                <label>Cena:</label>
+                <input type="text" min="0" id="izmena_cena" value=""><br><span></span><br>
+            </div>
+            <div class='poravnanjeInputa'>
+                <label>Broj raspolozivih primeraka:</label>
+                <input type="text" min="0" id="izmena_broj_raspolozivih_primeraka" value=""><br><span></span><br>
+            </div>    
+            <div class='poravnanjeInputa'>
+                <label>Reziser:</label>
+                <select id="izmena_rezisera">
+            </div>
+            <div class='poravnanjeInputa'>
+                </select><br><span></span><br>
+            </div>
+            <div class='poravnanjeButtona'>
+                <button id="potvrda" onclick="potvrdi()">Potvrda</button><br><span></span><br>
+                <a href="Pocetna_strana.html"><button type='button' id='zatvori'>Pocetna strana</button></a>
+            </div>
+        </fieldset>
+    </body>
+</html>
